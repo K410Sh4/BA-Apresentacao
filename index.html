@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#050a10">
+  <meta name="description" content="Brain Artificial — uma arquitetura computacional inspirada em adaptação, organização e evolução. Conheça a proposta, a arquitetura e o estado do desenvolvimento.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Brain Artificial — Arquitetura Computacional Adaptativa">
+  <meta property="og:description" content="Perceber o ambiente. Preservar a viabilidade. Desenvolver novas formas de operar.">
+  <meta property="og:image" content="assets/images/ba-network-hero.svg">
+  <title>Brain Artificial — Arquitetura Computacional Adaptativa</title>
+  <link rel="icon" type="image/svg+xml" href="assets/icons/ba-mark.svg">
+  <link rel="preload" as="image" href="assets/images/ba-network-hero.svg" fetchpriority="high">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script src="assets/js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+  <div class="ambient ambient--one" aria-hidden="true"></div>
+  <div class="ambient ambient--two" aria-hidden="true"></div>
+
+  <header class="site-header" id="topo">
+    <div class="header-inner">
+      <a class="brand" href="#topo" aria-label="Brain Artificial — início">
+        <img src="assets/icons/ba-mark.svg" alt="" width="42" height="42">
+        <span class="brand-name">BRAIN<br><strong>ARTIFICIAL</strong></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="primary-navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Navegação principal">
+        <a class="nav-link is-active" href="#inicio">Início</a>
+        <a class="nav-link" href="#arquitetura">Arquitetura</a>
+        <a class="nav-link" href="#mecanismos">Mecanismos</a>
+        <a class="nav-link" href="#desenvolvimento">Desenvolvimento</a>
+        <a class="nav-link" href="#perguntas">FAQ</a>
+      </nav>
+      <a class="header-github" href="https://github.com/K410Sh4/BA-Brain-Artificial-by-Kaio" target="_blank" rel="noopener noreferrer">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 19c-4.3 1.4-4.3-2.5-6-3m12 6v-3.9a3.4 3.4 0 0 0-.9-2.7c3-.3 6.1-1.5 6.1-6.7a5.2 5.2 0 0 0-1.4-3.6 4.8 4.8 0 0 0-.1-3.6s-1.1-.4-3.7 1.4a13 13 0 0 0-6.8 0C5.6 1.1 4.5 1.5 4.5 1.5a4.8 4.8 0 0 0-.1 3.6A5.2 5.2 0 0 0 3 8.7c0 5.2 3.1 6.4 6.1 6.7a3.4 3.4 0 0 0-.9 2.7V22"/></svg>
+        <span>GitHub</span><span class="external-mark" aria-hidden="true">↗</span>
+      </a>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero section-shell" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-gridline" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> PESQUISA E DESENVOLVIMENTO EM ANDAMENTO</div>
+        <h1 id="hero-title">BRAIN<br><span>ARTIFICIAL</span></h1>
+        <p class="hero-kicker">Uma nova forma de pensar a computação.</p>
+        <p class="hero-description">Perceber o ambiente. Preservar a viabilidade.<br>Desenvolver novas formas de operar.</p>
+        <div class="hero-actions">
+          <a class="button button--primary" href="#arquitetura">Explorar a BA <span aria-hidden="true">↗</span></a>
+          <a class="button button--secondary" href="#proposta">Conheça a proposta <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> Arquitetura computacional adaptativa em construção</div>
+      </div>
+      <div class="hero-visual" aria-label="Visualização artística de uma rede computacional luminosa">
+        <div class="hero-orbit hero-orbit--one" aria-hidden="true"></div>
+        <div class="hero-orbit hero-orbit--two" aria-hidden="true"></div>
+        <img class="hero-network" src="assets/images/ba-network-hero.svg" alt="Rede abstrata de nós e conexões luminosas em fundo escuro" fetchpriority="high">
+        <div class="visual-caption"><span class="caption-pulse"></span><span>ESTRUTURA • SINAIS • ADAPTAÇÃO</span><span class="caption-index">BA / 001</span></div>
+        <div class="visual-coordinate" aria-hidden="true">N 01.04 / C 07.2</div>
+      </div>
+      <div class="hero-bottomline" aria-label="Áreas centrais da pesquisa">
+        <div class="hero-pill"><span class="pill-icon icon-eye" aria-hidden="true"></span><span><strong>Percepção</strong><small>Leitura do ambiente</small></span></div>
+        <div class="pill-separator" aria-hidden="true"></div>
+        <div class="hero-pill"><span class="pill-icon icon-nodes" aria-hidden="true"></span><span><strong>Organização</strong><small>Topologia e regiões</small></span></div>
+        <div class="pill-separator" aria-hidden="true"></div>
+        <div class="hero-pill"><span class="pill-icon icon-pulse" aria-hidden="true"></span><span><strong>Regulação</strong><small>Viabilidade local</small></span></div>
+        <div class="pill-separator" aria-hidden="true"></div>
+        <div class="hero-pill"><span class="pill-icon icon-evolve" aria-hidden="true"></span><span><strong>Adaptação</strong><small>Desenvolvimento gradual</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#proposta" aria-label="Rolar para conhecer a proposta"><span></span> DESLIZE PARA EXPLORAR</a>
+    </section>
+
+    <section class="intro section-shell section-space" id="proposta" aria-labelledby="intro-title">
+      <div class="section-heading reveal">
+        <span class="section-index">01 / A PROPOSTA</span>
+        <span class="section-rule"></span>
+        <span class="section-label">UM OUTRO PARADIGMA COMPUTACIONAL</span>
+      </div>
+      <div class="intro-grid">
+        <h2 class="display-title reveal" id="intro-title">Não apenas executar.<br><span>Aprender a se organizar.</span></h2>
+        <div class="intro-copy reveal">
+          <p>A Brain Artificial é uma arquitetura computacional experimental que investiga como sistemas especializados podem perceber suas condições, organizar informações, regular recursos e desenvolver formas de operação compatíveis com o ambiente.</p>
+          <p>Inspirada em princípios de adaptação encontrados na natureza, a proposta trata organização, viabilidade e mudança como problemas centrais de engenharia — não como efeitos automáticos de um único modelo.</p>
+          <a class="text-link" href="#arquitetura">Entenda a arquitetura <span aria-hidden="true">⟶</span></a>
+        </div>
+      </div>
+      <div class="principle-band reveal">
+        <div class="principle-cell"><span class="principle-number">01</span><div><strong>Ambiente</strong><small>O contexto estabelece condições e limites.</small></div></div>
+        <div class="principle-cell"><span class="principle-number">02</span><div><strong>Organização</strong><small>Os mecanismos têm papéis e escopos definidos.</small></div></div>
+        <div class="principle-cell"><span class="principle-number">03</span><div><strong>Adaptação</strong><small>Respostas são avaliadas conforme evidências.</small></div></div>
+      </div>
+    </section>
+
+    <section class="architecture section-shell section-space" id="arquitetura" aria-labelledby="architecture-title">
+      <div class="section-heading reveal">
+        <span class="section-index">02 / ARQUITETURA</span><span class="section-rule"></span><span class="section-label">MECANISMOS ESPECIALIZADOS</span>
+      </div>
+      <div class="architecture-top">
+        <div class="architecture-heading reveal">
+          <h2 class="display-title" id="architecture-title">Uma estrutura.<br><span>Múltiplas especializações.</span></h2>
+          <p>A proposta não depende de um bloco monolítico. Ela combina mecanismos com responsabilidades específicas, evidências próprias e limites explícitos.</p>
+        </div>
+        <div class="architecture-legend reveal"><span><i class="legend-dot legend-dot--integrated"></i> Componente presente no BA Core</span><span><i class="legend-dot legend-dot--research"></i> Direção de pesquisa / integração em andamento</span></div>
+      </div>
+      <div class="architecture-stage reveal">
+        <div class="stage-background-grid" aria-hidden="true"></div>
+        <div class="stage-visual" aria-hidden="true">
+          <img src="assets/images/ba-planet-horizon.svg" class="stage-planet" alt="" loading="lazy">
+          <div class="stage-orbit stage-orbit--a"></div><div class="stage-orbit stage-orbit--b"></div>
+          <svg class="layer-stack" viewBox="0 0 620 500" role="img" aria-label="Ilustração de camadas computacionais interligadas">
+            <defs>
+              <linearGradient id="layerStroke" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9faff"/><stop offset=".48" stop-color="#39cce3"/><stop offset="1" stop-color="#14647e"/></linearGradient>
+              <linearGradient id="layerFill" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1b9db7" stop-opacity=".19"/><stop offset="1" stop-color="#07131e" stop-opacity=".72"/></linearGradient>
+              <filter id="layerGlow"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+            </defs>
+            <g class="stack-lines" fill="none" stroke="#4ccfe2" stroke-opacity=".24"><ellipse cx="310" cy="250" rx="270" ry="85"/><ellipse cx="310" cy="250" rx="220" ry="66" transform="rotate(-22 310 250)"/><path d="M30 250 L310 42 L590 250 L310 458 Z"/></g>
+            <g class="stack-layer stack-layer--top" filter="url(#layerGlow)"><path d="M310 62 510 178 310 294 110 178Z" fill="url(#layerFill)" stroke="url(#layerStroke)" stroke-width="2"/><path d="M110 178 110 204 310 321 510 204 510 178" fill="#07131e" fill-opacity=".65" stroke="#38bed4" stroke-opacity=".7"/><path d="M310 62V294" stroke="#9cf5ff" stroke-opacity=".55"/></g>
+            <g class="stack-layer stack-layer--middle"><path d="M310 144 478 241 310 339 142 241Z" fill="url(#layerFill)" stroke="#49cce1" stroke-width="2"/><path d="M142 241 142 267 310 366 478 267 478 241" fill="#081722" stroke="#24859b" stroke-width="1.5"/><path d="M196 242 310 176 424 242 310 309Z" fill="none" stroke="#a7f6ff" stroke-opacity=".52"/></g>
+            <g class="stack-layer stack-layer--base"><path d="M310 230 440 305 310 380 180 305Z" fill="url(#layerFill)" stroke="#2ca8bf" stroke-width="2"/><path d="M180 305 180 328 310 404 440 328 440 305" fill="#07131d" stroke="#21839c" stroke-width="1.5"/><path d="M238 306 310 264 382 306 310 348Z" fill="none" stroke="#9af2ff" stroke-opacity=".44"/></g>
+            <g fill="#a8f7ff" filter="url(#layerGlow)"><circle cx="310" cy="62" r="5"/><circle cx="510" cy="178" r="4"/><circle cx="110" cy="178" r="4"/><circle cx="310" cy="294" r="4"/><circle cx="310" cy="404" r="5"/></g>
+            <g fill="none" stroke="#75e8f4" stroke-width="1.5" stroke-opacity=".7"><path d="M310 20V62"/><path d="M310 404V456"/><path d="M110 178 57 148"/><path d="M510 178 563 148"/></g>
+            <g fill="#bafaff" opacity=".84"><circle cx="310" cy="20" r="2"/><circle cx="310" cy="456" r="2"/></g>
+          </svg>
+          <span class="stage-tag stage-tag--one">SISTEMAS</span><span class="stage-tag stage-tag--two">REGIÕES</span><span class="stage-tag stage-tag--three">RECURSOS</span>
+        </div>
+        <div class="module-explorer">
+          <div class="explorer-overline"><span class="live-indicator"></span> EXPLORADOR DA ARQUITETURA</div>
+          <h3>Explore os mecanismos</h3>
+          <p class="explorer-intro">Selecione uma área para conhecer sua responsabilidade e o estado atual de implementação.</p>
+          <div class="module-list" role="group" aria-label="Mecanismos da arquitetura">
+            <button class="module-button is-selected" type="button" data-module="perception" aria-pressed="true"><span class="module-symbol">◎</span><span><strong>Percepção do corpo</strong><small>Observação e levantamento</small></span><span class="module-arrow">↗</span></button>
+            <button class="module-button" type="button" data-module="topology" aria-pressed="false"><span class="module-symbol">⌘</span><span><strong>Organização topológica</strong><small>Regiões, unidades e conexões</small></span><span class="module-arrow">↗</span></button>
+            <button class="module-button" type="button" data-module="regulation" aria-pressed="false"><span class="module-symbol">⟲</span><span><strong>Regulação local</strong><small>Homeostase e alostase</small></span><span class="module-arrow">↗</span></button>
+            <button class="module-button" type="button" data-module="resources" aria-pressed="false"><span class="module-symbol">⌁</span><span><strong>Consciência de recursos</strong><small>Telemetria e orçamento consultivo</small></span><span class="module-arrow">↗</span></button>
+          </div>
+          <div class="module-detail" aria-live="polite" aria-atomic="true">
+            <div class="detail-topline"><span id="module-detail-category">BA CORE</span><span id="module-detail-status" class="status-chip status-chip--integrated">Integrado</span></div>
+            <h4 id="module-detail-title">Percepção do corpo</h4>
+            <p id="module-detail-text">Body Awareness e Body Survey organizam observações somente de leitura, mantendo origem, estado e proveniência de cada provedor.</p>
+            <div class="detail-footer"><span id="module-detail-source">Body Awareness · Body Survey</span><span class="detail-index" id="module-detail-index">01 / 04</span></div>
+          </div>
+        </div>
+      </div>
+      <p class="architecture-footnote"><span class="footnote-mark">i</span> O diagrama é uma representação visual simplificada. Ele não significa que todos os mecanismos já estejam conectados em um ciclo autônomo integrado.</p>
+    </section>
+
+    <section class="mechanisms section-shell section-space" id="mecanismos" aria-labelledby="mechanisms-title">
+      <div class="section-heading reveal"><span class="section-index">03 / MECANISMOS</span><span class="section-rule"></span><span class="section-label">O QUE JÁ EXISTE NO SUBSTRATO</span></div>
+      <div class="mechanisms-heading reveal"><h2 class="display-title" id="mechanisms-title">Da observação à<br><span>regulação responsável.</span></h2><p>O BA Core reúne mecanismos experimentais verificáveis. Cada um tem um escopo próprio — e limites que precisam permanecer explícitos.</p></div>
+      <div class="mechanism-grid">
+        <article class="mechanism-card reveal"><div class="card-top"><span class="card-index">01</span><span class="card-symbol">◉</span></div><h3>Telemetria tipada</h3><p>Observações de hardware e sistema preservam unidade, escopo, provedor, tempo de amostragem e proveniência.</p><div class="card-meta"><span class="mini-state mini-state--integrated"></span> BA CORE · INTEGRADO</div></article>
+        <article class="mechanism-card reveal"><div class="card-top"><span class="card-index">02</span><span class="card-symbol">⌘</span></div><h3>Topologia e regiões</h3><p>Identidades e relações são organizadas com resolução determinística e diagnóstico de conflitos, sem inventar conexões ausentes.</p><div class="card-meta"><span class="mini-state mini-state--integrated"></span> BA CORE · INTEGRADO</div></article>
+        <article class="mechanism-card reveal"><div class="card-top"><span class="card-index">03</span><span class="card-symbol">⟲</span></div><h3>Homeostase e alostase</h3><p>Mecanismos locais e determinísticos regulam variáveis e alvos diante de incompatibilidades persistentes, com limites e reservas explícitos.</p><div class="card-meta"><span class="mini-state mini-state--integrated"></span> BA CORE · INTEGRADO</div></article>
+        <article class="mechanism-card reveal"><div class="card-top"><span class="card-index">04</span><span class="card-symbol">⌁</span></div><h3>Ecologia de sinais</h3><p>Campos e sinais espaciais modelam produção, transporte, captação e degradação, preservando a separação entre esses processos.</p><div class="card-meta"><span class="mini-state mini-state--integrated"></span> BA CORE · INTEGRADO</div></article>
+        <article class="mechanism-card reveal"><div class="card-top"><span class="card-index">05</span><span class="card-symbol">▤</span></div><h3>Modelo de recursos</h3><p>Orçamentos consultivos usam evidências qualificadas. As políticas são informativas: não aplicam cotas nem controlam o agendador do sistema.</p><div class="card-meta"><span class="mini-state mini-state--integrated"></span> BA CORE · INTEGRADO</div></article>
+        <article class="mechanism-card mechanism-card--research reveal"><div class="card-top"><span class="card-index">06</span><span class="card-symbol">⤴</span></div><h3>Integração adaptativa</h3><p>Ciclos temporais, recuperação, gestão ampliada de recursos e evolução estrutural seguem em desenvolvimento e validação.</p><div class="card-meta"><span class="mini-state mini-state--research"></span> EM DESENVOLVIMENTO</div></article>
+      </div>
+    </section>
+
+    <section class="cycle section-shell section-space" aria-labelledby="cycle-title">
+      <div class="section-heading reveal"><span class="section-index">04 / DIREÇÃO ARQUITETURAL</span><span class="section-rule"></span><span class="section-label">UM CICLO EM CONSTRUÇÃO</span></div>
+      <div class="cycle-layout">
+        <div class="cycle-copy reveal"><h2 class="display-title" id="cycle-title">O ambiente muda.<br><span>A organização precisa responder.</span></h2><p>O objetivo de longo prazo é estruturar um processo no qual o sistema observe condições, forme contexto, regule sua operação e avalie os efeitos das mudanças.</p><div class="cycle-disclaimer"><span class="disclaimer-icon">!</span><p><strong>Estado atual:</strong> os mecanismos que inspiram estas etapas existem em graus diferentes de maturidade. A sequência abaixo representa uma direção arquitetural, não um ciclo autônomo completo já demonstrado.</p></div></div>
+        <div class="cycle-visual reveal">
+          <div class="cycle-ring cycle-ring--outer" aria-hidden="true"></div><div class="cycle-ring cycle-ring--inner" aria-hidden="true"></div>
+          <div class="cycle-step cycle-step--1"><span>01</span><strong>Observar</strong><small>Coletar evidências</small></div>
+          <div class="cycle-step cycle-step--2"><span>02</span><strong>Interpretar</strong><small>Formar contexto</small></div>
+          <div class="cycle-step cycle-step--3"><span>03</span><strong>Regular</strong><small>Proteger viabilidade</small></div>
+          <div class="cycle-step cycle-step--4"><span>04</span><strong>Avaliar</strong><small>Medir consequências</small></div>
+          <div class="cycle-core"><img src="assets/icons/ba-mark.svg" alt="" width="60" height="60"><span>BA</span></div>
+          <span class="cycle-orbit-dot cycle-orbit-dot--a"></span><span class="cycle-orbit-dot cycle-orbit-dot--b"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="development section-shell section-space" id="desenvolvimento" aria-labelledby="development-title">
+      <div class="development-backdrop" aria-hidden="true"></div>
+      <div class="section-heading reveal"><span class="section-index">05 / MATURIDADE</span><span class="section-rule"></span><span class="section-label">EVOLUÇÃO COM EVIDÊNCIAS</span></div>
+      <div class="development-content">
+        <div class="development-copy reveal"><h2 class="display-title" id="development-title">Ambição alta.<br><span>Critério técnico.</span></h2><p>A BA está sendo construída por etapas. Uma funcionalidade só é considerada consolidada quando código, testes e evidências sustentam essa conclusão.</p><a class="button button--secondary" href="https://github.com/K410Sh4/BA-Brain-Artificial-by-Kaio" target="_blank" rel="noopener noreferrer">Acompanhar o desenvolvimento <span aria-hidden="true">↗</span></a></div>
+        <div class="maturity-list reveal">
+          <div class="maturity-row"><span class="maturity-marker maturity-marker--done"></span><div><strong>Base experimental integrada</strong><p>Componentes do BA Core, como topologia, telemetria, sinais, homeostase e alostase.</p></div><span class="maturity-state">INTEGRADO</span></div>
+          <div class="maturity-row"><span class="maturity-marker maturity-marker--active"></span><div><strong>Expansão e integração</strong><p>Ciclos temporais, evidências cruzadas, checkpoints, inventário e mecanismos de suporte.</p></div><span class="maturity-state">EM CURSO</span></div>
+          <div class="maturity-row"><span class="maturity-marker maturity-marker--future"></span><div><strong>Pesquisa de longo prazo</strong><p>Plasticidade estrutural, desenvolvimento, evolução e especialização adaptativa mais ampla.</p></div><span class="maturity-state">PESQUISA</span></div>
+        </div>
+      </div>
+      <div class="development-image" aria-hidden="true"><img src="assets/images/ba-planet-horizon.svg" alt="" loading="lazy"></div>
+    </section>
+
+    <section class="questions section-shell section-space" id="perguntas" aria-labelledby="questions-title">
+      <div class="section-heading reveal"><span class="section-index">06 / PERGUNTAS</span><span class="section-rule"></span><span class="section-label">ENTENDA A PROPOSTA</span></div>
+      <div class="questions-layout"><div class="questions-heading reveal"><h2 class="display-title" id="questions-title">Dúvidas<br><span>importantes.</span></h2><p>Uma proposta nova exige distinções claras entre objetivo, implementação e hipótese.</p></div>
+        <div class="faq-list reveal">
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Brain Artificial é apenas uma IA?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Não é essa a definição do projeto. A BA é concebida como uma arquitetura computacional adaptativa, composta por mecanismos especializados. Modelos de IA podem ser utilizados como ferramentas ou especialistas substituíveis, mas não definem a identidade da arquitetura.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>A BA já se adapta autonomamente?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Existem mecanismos experimentais de regulação local, adaptação de alvos e modelagem ambiental no BA Core. Isso não equivale a um ciclo global, contínuo e autônomo plenamente integrado. Essa integração segue em desenvolvimento.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>Ela pode controlar qualquer hardware?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Não. A base atual prioriza observação de leitura e aconselhamento. Controle de dispositivos, firmware, drivers ou recursos do sistema exige interfaces específicas, compatibilidade, autorização e validação. Não existe suporte universal nem alteração direta do silício.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>A BA já está pronta para instalação?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>Não como produto completo. O projeto está em pesquisa e desenvolvimento. Existem componentes e protótipos utilizáveis em contextos delimitados, mas a arquitetura integral ainda não está consolidada como uma instalação universal.</p></div></article>
+          <article class="faq-item"><h3><button class="faq-question" type="button" aria-expanded="false"><span>O que significa evolução neste projeto?</span><span class="faq-plus" aria-hidden="true">+</span></button></h3><div class="faq-answer" hidden><p>É uma direção de pesquisa que inclui mudanças organizacionais e estruturais ao longo do tempo. Adaptação operacional, plasticidade de componentes e evolução hereditária são problemas diferentes e não devem ser tratados como se já estivessem implementados.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="closing section-shell reveal" aria-labelledby="closing-title">
+      <div class="closing-art" aria-hidden="true"><div class="closing-grid"></div><img src="assets/icons/ba-mark.svg" alt="" width="88" height="88"></div>
+      <div class="closing-copy"><span class="section-index">BRAIN ARTIFICIAL / BY KAIO</span><h2 id="closing-title">Uma arquitetura em construção.<br><span>Um horizonte de possibilidades.</span></h2><p>Acompanhe a pesquisa, consulte o código e participe da evolução do projeto.</p><div class="closing-actions"><a class="button button--primary" href="https://github.com/K410Sh4/BA-Brain-Artificial-by-Kaio" target="_blank" rel="noopener noreferrer">Explorar o repositório <span aria-hidden="true">↗</span></a><a class="text-link" href="https://github.com/K410Sh4/BA-Apresentacao" target="_blank" rel="noopener noreferrer">Código deste site <span aria-hidden="true">↗</span></a></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-main section-shell"><a class="brand brand--footer" href="#topo"><img src="assets/icons/ba-mark.svg" alt="" width="36" height="36"><span class="brand-name">BRAIN<br><strong>ARTIFICIAL</strong></span></a><p>Perceber. Organizar. Adaptar.</p><div class="footer-links"><a href="https://github.com/K410Sh4/BA-Brain-Artificial-by-Kaio" target="_blank" rel="noopener noreferrer">Repositório principal ↗</a><a href="https://github.com/K410Sh4/BA-Apresentacao" target="_blank" rel="noopener noreferrer">Site no GitHub ↗</a></div></div>
+    <div class="footer-bottom section-shell"><span>© <span id="current-year">2026</span> Brain Artificial by Kaio.</span><span>Pesquisa e desenvolvimento em andamento.</span><a href="#topo">VOLTAR AO TOPO ↑</a></div>
+  </footer>
+</body>
+</html>
