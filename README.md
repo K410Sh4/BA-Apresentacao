@@ -33,6 +33,10 @@ Depois acesse `http://localhost:8000`.
 3. Selecione `main` e a pasta `/ (root)`.
 4. Salve e aguarde a publicação do GitHub Pages.
 
+## Identidade visual
+
+As ilustrações decorativas principais são imagens WebP geradas e otimizadas. A marca original e os ícones funcionais permanecem vetoriais para preservar nitidez, tamanho reduzido e acessibilidade.
+
 ## Interações
 
 - menu responsivo com controle de acessibilidade;
