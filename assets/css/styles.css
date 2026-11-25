@@ -146,3 +146,9 @@
 @media(prefers-reduced-motion:reduce){.cycle-art{animation:none!important;transition:none!important}.mechanism-card:hover .card-art{transform:none!important}}
 
 .mechanism-card .card-art--telemetry{background-position:0 0}.mechanism-card .card-art--topology{background-position:50% 0}.mechanism-card .card-art--regulation{background-position:100% 0}.mechanism-card .card-art--signals{background-position:0 100%}.mechanism-card .card-art--resources{background-position:50% 100%}.mechanism-card .card-art--integration{background-position:100% 100%}
+/* Keep sprite cells square so their artwork is not stretched. */
+.mechanism-card .card-art{top:46px;right:2px;width:clamp(118px,42%,168px);height:clamp(118px,42%,168px);transform:none;background-size:300% 200%}
+.mechanism-card:hover .card-art{transform:scale(1.055) translateX(-3px)}
+@media(max-width:760px){.mechanism-card .card-art{top:46px;right:0;width:clamp(104px,39%,136px);height:clamp(104px,39%,136px)}.mechanism-card:hover .card-art{transform:scale(1.035) translateX(-2px)}}
+@media(max-width:560px){.mechanism-card .card-art{top:36px;width:clamp(112px,34%,150px);height:clamp(112px,34%,150px)}}
+@media(prefers-reduced-motion:reduce){.mechanism-card:hover .card-art{transform:none!important}}
