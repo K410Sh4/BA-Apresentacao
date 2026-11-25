@@ -258,7 +258,6 @@
         drawOrbit(cx, cy, width * .31, height * .19, -.72, .09);
 
         const linkRange = Math.max(86, width * .205);
-        let edgeIndex = 0;
         for (let i = 0; i < nodes.length; i++) {
           const a = nodes[i];
           for (let j = i + 1; j < nodes.length; j++) {
@@ -290,7 +289,6 @@
               context.fill();
               context.shadowBlur = 0;
             }
-            edgeIndex++;
           }
         }
 
@@ -330,11 +328,11 @@
           node.x += node.vx * delta;
           node.y += node.vy * delta;
           if (networkPointer.active) {
-            const dx = node.x - networkPointer.x;
-            const dy = node.y - networkPointer.y;
+            const dx = networkPointer.x - node.x;
+            const dy = networkPointer.y - node.y;
             const distanceSq = dx * dx + dy * dy;
             if (distanceSq < 150 * 150 && distanceSq > 1) {
-              const force = (1 - Math.sqrt(distanceSq) / 150) * .00042 * delta;
+              const force = (1 - Math.sqrt(distanceSq) / 150) * .00014 * delta;
               node.vx += dx * force;
               node.vy += dy * force;
             }
