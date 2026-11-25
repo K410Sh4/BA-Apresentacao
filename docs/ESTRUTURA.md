@@ -7,10 +7,11 @@
 - `assets/images/ba-network-hero.webp`: arte gerada de rede computacional para o destaque.
 - `assets/images/ba-architecture-layers.webp`: arte gerada de arquitetura holográfica em camadas.
 - `assets/images/ba-planet-horizon.webp`: arte gerada de horizonte planetário para ambientação.
+- `assets/images/mechanism-art-sprite.webp`: spritesheet WebP gerado com seis ilustrações para os cartões de mecanismos (telemetria, topologia, regulação, sinais, recursos e integração).
 
 ## Renderização e desempenho
 
-A arte de ambientação usa imagens raster WebP geradas e otimizadas; a marca e ícones funcionais continuam vetoriais para manter nitidez e acessibilidade. A cena adicional do hero é uma ilustração procedural executada no Canvas 2D do navegador. Ela não lê telemetria, não representa atividade real do BA Core e não apresenta métricas operacionais. A quantidade de nós acompanha a largura da área visual; o canvas limita o pixel ratio, suspende a animação quando fica fora da tela ou quando a aba perde visibilidade e respeita `prefers-reduced-motion`.
+A arte de ambientação e os cartões de mecanismos usam imagens raster WebP geradas e otimizadas; a marca e ícones funcionais continuam vetoriais para manter nitidez e acessibilidade. A cena adicional do hero é uma ilustração procedural executada no Canvas 2D do navegador. Ela não lê telemetria, não representa atividade real do BA Core e não apresenta métricas operacionais. A quantidade de nós acompanha a largura da área visual; o canvas limita o pixel ratio, suspende a animação quando fica fora da tela ou quando a aba perde visibilidade e respeita `prefers-reduced-motion`.
 
 A implementação não inclui Rust/WebAssembly porque a carga de trabalho atual é renderização de interface, já atendida pelas APIs nativas do navegador. Um módulo WASM só deve ser considerado quando existir uma tarefa computacional mensurável que justifique a compilação, a distribuição do binário e a manutenção adicional.
 

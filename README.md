@@ -35,7 +35,7 @@ Depois acesse `http://localhost:8000`.
 
 ## Identidade visual
 
-As ilustrações decorativas principais são imagens WebP geradas e otimizadas. A marca original e os ícones funcionais permanecem vetoriais para preservar nitidez, tamanho reduzido e acessibilidade.
+As ilustrações decorativas principais e o spritesheet WebP dos seis cartões de mecanismos usam arte gerada e otimizada. A marca original e os ícones funcionais permanecem vetoriais para preservar nitidez, tamanho reduzido e acessibilidade.
 
 ## Interações
 
@@ -47,6 +47,7 @@ As ilustrações decorativas principais são imagens WebP geradas e otimizadas. 
 - FAQ expansível;
 - rede computacional em Canvas 2D com movimento procedural, conexões e pulsos visuais;
 - atração local e parallax discreto no destaque, acionados pelo ponteiro;
+- ilustrações raster próprias nos cartões de mecanismos e na composição do ciclo arquitetural;
 - realces contextuais em cartões, feedback de clique e microtransições;
 - pausa da animação fora da área visível ou com a aba oculta;
 - suporte à preferência de movimento reduzido do sistema.
